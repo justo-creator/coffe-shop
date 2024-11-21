@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111315;
+    font-family: "poppins", sans-serif;
+}
+
+.header-container{
+    width: 100%;
+    height: 400px;
+    background-image: url('./bg-cafe-CZKgc9gK.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(.8);
+    transition: filter .3s ease-in;
+    cursor: pointer;
+    position: relative;
+}
+
+.header-container:hover{
+    filter: brightness(1);
+}
+
+
+.main-container{
+    background-color: #1B1D1F;
+    border-radius: 4px;
+    max-width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    padding: 30px;
+
+}
+
+.info-section{
+    text-align: center;
+    margin: 30px;
+}
+
+.info-section .btn{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section .btn a{
+    color: #FEF7EE;
+    text-decoration: none;
+}
+ .info-section .btn a:first-child{
+    background: #6F757C;
+    padding: 4px 7px;
+    border-radius: 5px;
+ }
+
+
+.info-section h1{
+    color: white;
+    font-size: 32px;
+}
+
+.info-section p{
+    color: #6F757C;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.img-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-section img{
+    border-radius: 5px;
+}
+.img-section figure figcaption .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-section figure figcaption .info p{
+    color: #FEF7EE;
+    margin: 0;
+}
+
+.img-section figure figcaption span{
+    color: #6F757C;
+}
+
+.img-section figure figcaption .info .price{
+    background: #BEE3CC;
+    border-radius: 5px;
+    color: #1B1D1F;
+    padding: 1px 4px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
